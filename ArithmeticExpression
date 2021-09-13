@@ -1,0 +1,38 @@
+/*
+Name:         MatthewDavis
+Date:         9/10/2021
+Title:        ArithmeticExpressions.java
+Desscription: Adds, subtracts, multiplies, peforms integer division on 2 numbers 
+Input:        none (values are hard-coded)
+Output:       The result of adding, subtracting, multiplying, dividing 2 numbers
+*/
+
+public class ArithmeticExpression
+{
+public static void main(string[] args)
+{
+int first;     // first integer
+int second;    // second integer 
+int result;    // result of mathematical operation 
+
+first = 6;
+second = 3;
+
+result = first + second;
+system.out.println("The value of " + first + " + " + second
++ " is " + result);
+
+result = first - second;
+system.out.println("The value of " + first + " - " + second
++ " is " + result);
+
+result = first * second;
+system.out.println("The value of " + first + " * " + second
++ " is " + result);
+
+result = first / second;
+system.out.println("The value of " + first + " / " + second
++ " is " + result);
+  } // ends the main
+} // ends the ArithmeticExpression class
+
