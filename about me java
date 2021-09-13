@@ -1,0 +1,29 @@
+/*
+Name: Matthew Davis 
+Date: 9/8/2021
+Title: AboutME.Java
+Description:   Outputs the users age iniital,
+Input:   none (values and hard-coded)
+Output:  information about the user 
+*/
+
+public class AboutMe
+{
+   public static void main(String[]args)
+   {
+ 
+      String FullName;    // full name of user
+      char firstInitial;  // initial of user 
+      int age;            // users age
+      double annualPay;      //users pay 
+ 
+      fullName = "Matthew Davis";
+      firstInitial = 'M';
+      age = 18;
+      annualpay = 100000.0;
+ 
+      System.out.println("My name is " + fullName + ", my age is  "+ age + " and");
+      System.out.println("I hope to earn $" + annualPay + " per year. --" + firstInitial);
+  
+  }//ends the main
+} // ends the about me class
