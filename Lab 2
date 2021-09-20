@@ -1,0 +1,44 @@
+/*
+Name: Matthew Davis
+Date: 9/17/21 
+Title: RestaurantBill.java
+Description: Calculates the tax on an item
+Input: the cost of an item and the tax rate
+Output: The tax on the item and the items's total cost
+*/
+
+import java.util.Scanner;
+
+public class RestaurantBill
+{
+   public static void main(String[] args)
+   {
+   // Scanner object for reading in keyboard input
+   Scanner keyboard = new Scanner(System.in);
+
+   double price; // item purchased 
+   double taxRate;  // township tax rate
+   double tax; // computed tax owed 
+   double total; // computed grand total
+
+   System.out.println("program to compute tax");
+   System.out.println("---------------");
+
+   System.out.print("Enter price of food: ");
+   price = keyboard.nextDouble();
+
+   System.out.print("Enter tax rate in percent (e.g. .08 for 8%): ");
+   taxRate = keyboard.nextDouble();
+  
+   // end of user input
+
+   // compute tax and total
+   tax = taxRate * price;
+   total = price + tax;
+
+// output final numbers 
+System.out.println("TAX on food is " + tax);
+System.out.println("Total price is " + total);
+
+   }// ends the main
+}// ends the tax class 
